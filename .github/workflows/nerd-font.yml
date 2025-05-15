@@ -46,7 +46,7 @@ jobs:
       - name: Build the nerd font
         run: |
             cd ./nerd-fonts
-            ./bin/scripts/gotta-patch-em-all-font-patcher\!.sh
+            ./bin/scripts/gotta-patch-em-all-font-patcher\!.sh /IosevkaTermCurly
             tar -cvzf ./iosevka-term-curly-nerd-font.tar.gz ./patched/IosevkaTermCurly/*       
 
 
