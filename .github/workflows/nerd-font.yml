@@ -41,7 +41,7 @@ jobs:
 
       - name: Copy to nerd fonts dir
         run: |
-            cp -r ./iosevka-term-curly/IosevkaTermCurly ./nerd-fonts/src/unpatched/
+            cp -r ./iosevka-term-curly/IosevkaTermCurly ./nerd-fonts/src/unpatched-fonts/
     
       - name: Build the nerd font
         run: |
